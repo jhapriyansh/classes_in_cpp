@@ -32,7 +32,7 @@ public:
 
 int main() {
   baseClass *baseClassPointer;
-  baseClass objBase;
+  // baseClass objBase;
   derivedClass objDeri;
   baseClassPointer = &objDeri; // Pointing base class pointer to derived class.
   baseClassPointer->varBase = 34;
